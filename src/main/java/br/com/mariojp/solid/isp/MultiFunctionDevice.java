@@ -1,6 +1,6 @@
 package br.com.mariojp.solid.isp;
 
-public interface MultiFunctionDevice implements Printer, Scanner {
+public class MultiFunctionDevice implements Printer, Scanner {
 
     @Override
     public void print(String content){
